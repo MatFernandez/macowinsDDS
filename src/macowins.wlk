@@ -55,3 +55,15 @@ class Liquidacion { //Tambien deberia ser un object en wollok
 
 }
 
+/* ---SOBRE EL CODIGO---
+
+-General:
+-Lo resolvi en wollok porque la verdad no me sentia seguro haciendolo en java. Deje los objects como clases para medianamente ir acostumbrandome (por eso la aclaracion en algunas clases).
+
+-Sobre la solucion:
+*Me hizo bastante ruido los tipos de prendas (en este caso en wollok) por eso no hay nada de ellas. Lei que en java podian incluirse como Enum, me surgio la duda si en el diagrama de clases estas debian incluirse?
+*Sobre la clase venta, a lo mejor era conveniente tambien crear una clase medioDePago donde se haga toda la logica del costo de la venta con cuotas, recargos etc etc usando herencia para efectivo y pago con tarjeta y no meter todo eso ahi adentro.
+
+-Y supongo que eso es todo 
+*/
+
